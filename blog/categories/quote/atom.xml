@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: quote | Cogitatio]]></title>
+  <link href="http://leonardschneider.github.com/blog/categories/quote/atom.xml" rel="self"/>
+  <link href="http://leonardschneider.github.com/"/>
+  <updated>2012-11-07T13:25:29+01:00</updated>
+  <id>http://leonardschneider.github.com/</id>
+  <author>
+    <name><![CDATA[Léonard Schneider]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quote Of The Day]]></title>
+    <link href="http://leonardschneider.github.com/blog/2012/11/06/quote-of-the-day/"/>
+    <updated>2012-11-06T00:49:00+01:00</updated>
+    <id>http://leonardschneider.github.com/blog/2012/11/06/quote-of-the-day</id>
+    <content type="html"><![CDATA[<p><blockquote><p>Future never starts. Past never ends.</p><footer><strong>Léonard Schneider</strong> <cite>Cogitatio</cite></footer></blockquote></p>
+]]></content>
+  </entry>
+  
+</feed>

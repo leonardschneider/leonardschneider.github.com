@@ -4,13 +4,55 @@
   <title><![CDATA[Cogitatio]]></title>
   <link href="http://leonardschneider.github.com/atom.xml" rel="self"/>
   <link href="http://leonardschneider.github.com/"/>
-  <updated>2012-10-05T20:39:41+02:00</updated>
+  <updated>2012-11-07T13:25:29+01:00</updated>
   <id>http://leonardschneider.github.com/</id>
   <author>
-    <name><![CDATA[Leonard Schneider]]></name>
+    <name><![CDATA[Léonard Schneider]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quote Of The Day]]></title>
+    <link href="http://leonardschneider.github.com/blog/2012/11/06/quote-of-the-day/"/>
+    <updated>2012-11-06T00:49:00+01:00</updated>
+    <id>http://leonardschneider.github.com/blog/2012/11/06/quote-of-the-day</id>
+    <content type="html"><![CDATA[<blockquote><p>Future never starts. Past never ends.</p><footer><strong>Léonard Schneider</strong> <cite>Cogitatio</cite></footer></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My first post]]></title>
+    <link href="http://leonardschneider.github.com/blog/2012/10/05/my-first-post/"/>
+    <updated>2012-10-05T21:10:00+02:00</updated>
+    <id>http://leonardschneider.github.com/blog/2012/10/05/my-first-post</id>
+    <content type="html"><![CDATA[<p>After having given a (short) try to Tumblr, I’m now using <a href="http://octopress.org">Octopress</a>. Simple things I wanted to do such as displaying code or math formula was just too much hacking and boiler plate within Tumblr. Octopress is pretty cool. You have to install stuff, but at last you can: edit markdown from your favorite text editor (Vim is my choice), easily include Gists, publish to your Github account very very easily.</p>
+
+<!--more-->
+
+<p>Here is an example of a math formula</p>
+
+<script type="math/tex; mode=display">R_{ab} - {\textstyle 1 \over 2}R\,g_{ab} + \Lambda\ g_{ab} = \kappa\, T_{ab}</script>
+
+<p>And here is a Gist file</p>
+
+<div><script src="https://gist.github.com/3837043.js?file=Helloworld.scala"></script>
+<noscript><pre><code>def hello: String = macro helloImpl
+
+def helloImpl(c: Context) = c.literal(&quot;Hello world!&quot;)</code></pre></noscript></div>
+
+<p>You can also directly embed a piece of code, as follows.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="scala"><span class="line"><span class="k">def</span> <span class="n">hello</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">macro</span> <span class="n">helloImpl</span>
+</span><span class="line">
+</span><span class="line"><span class="k">def</span> <span class="n">helloImpl</span><span class="o">(</span><span class="n">c</span><span class="k">:</span> <span class="kt">Context</span><span class="o">)</span> <span class="k">=</span> <span class="n">c</span><span class="o">.</span><span class="n">literal</span><span class="o">(</span><span class="s">&quot;Hello world!&quot;</span><span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+]]></content>
+  </entry>
   
 </feed>
